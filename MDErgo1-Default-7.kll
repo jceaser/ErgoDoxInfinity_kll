@@ -1,0 +1,35 @@
+Name = "MDErgo1";
+Layout = "Default";
+Base = "Blank";
+Version = "0.1";
+Author = "jceaser (Thomas Cherry) 2017";
+KLL = "0.3c";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+
+U["1"-"0"] : None;
+U["A"-"Z"] : None;
+U"LBRACE" : U"NEXT LAYER";
+U"FUNCTION1" : U"PREV LAYER";
+
+# System Layer
+
+U"7" : U"LCK7";
+U"6" : U"LCK6";
+U"5" : U"LCK5";
+U"4" : U"LCK4";
+U"3" : U"LCK3";
+U"2" : U"LCK2";
+U"1" : U"LCK1";
+
+U"EQUALS" : flashMode();
+U"BACKSPACE" : SYS"SLEEP";
+U"FUNCTION5" : CONS"BRIGHTNESSINCREMENT";
+U"FUNCTION4" : CONS"BRIGHTNESSDECREMENT";
+U"MINUS" : flashMode();
+U"ENTER" : SYS"WAKEUP";
+U"SPACE" : SYS"POWERDOWN";
+U"LEFT" : ledControl( 4, 15, 0 );
+U"DOWN" : ledControl( 3, 15, 0 );
+U"UP" : ledControl( 5, 0, 0 );
+U"RIGHT" : toggleKbdProtocol();

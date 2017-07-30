@@ -1,0 +1,147 @@
+Name = "MDErgo1";
+Layout = "Default";
+Base = "Blank";
+Version = "0.1";
+Author = "jceaser (Thomas Cherry) 2017";
+KLL = "0.3c";
+Date = "2017-04-15";
+Generator = "KIICONF 0.2";
+
+U["1"-"0"] : None;
+U["A"-"Z"] : None;
+
+# Dvorak - primary on right, layer 1 on left side
+# -------------------------------+-----------------------------|
+#  =   1 2 3 4  5 ESC            |      Fn6  6  7  8  9 0 _    |
+# Tab  " , . P  Y Fn1            |      Fn?  F  G  C  R L _    |
+# LCtr A O E U  I ___            |      ___  H  J  K  L ; _    |
+# LSft ; Q J K  X Fn2            |      Fn7  B  M  W  V Z RSft |
+# LGUI ` 3 4 5  _  LCtr LALT     | RAlt RCtr _  Rt Lt [ ] RGui |
+#               Bs Del  END Home | Pu   Pd  Rtn Sp             |
+# -------------------------------+-----------------------------|
+
+#
+## Left side, keys listed right to left ##
+#
+
+U"ESC" : U"LAT4";
+U"5" : U"5";
+U"4" : U"4";
+U"3" : U"3";
+U"2" : U"2";
+U"1" : U"1";
+U"EQUALS" : U"EQUAL";
+
+U"FUNCTION1" : U"PREV LAYER";
+U"T" : U"Y";
+U"R" : U"P";
+U"E" : U"PERIOD";
+U"W" : U"COMMA";
+U"Q" : U"QUOTE";
+U"BACKSLASH" : U"TAB";
+
+U"G" : U"I";
+U"F" : U"U";
+U"D" : U"E";
+U"S" : U"O";
+U"A" : U"A";
+U"TAB" : U"LCTRL";
+
+U"LALT" : U"RALT";
+U"LCTRL" : U"LGUI";
+
+U"FUNCTION2" : U"FUN2";
+U"B" : U"X";
+U"V" : U"K";
+U"C" : U"J";
+U"X" : U"Q";
+U"Z" : U"SEMICOLON";
+U"LSHIFT" : U"LSHIFT";
+
+U"HOME" : U"HOME";
+U"END" : U"END";
+U"DELETE" : U"DELETE";
+U"BACKSPACE" : U"BACKSPACE";
+
+U"FUNCTION5" : U"RIGHT";
+U"FUNCTION4" : U"LEFT";
+U"FUNCTION3" : U"ESC";
+
+#U"BACKTICK" : U"BACKTICK";
+#U"LGUI" : U"Yen"; #"¥";
+
+#U"BACKTICK" : U"Yen"; #"¥";
+#U"LGUI" : U"BACKTICK";
+
+#U"Inter3" : U"BACKTICK";       #back tick means § on iso keyboards
+U"BACKTICK" : U"BACKTICK";
+
+#U"LGUI" : U"BACKTICK";
+#U"RGUI" : U"BACKTICK";
+
+#U"Inter3" : U"YEN";       #back tick means § on iso keyboards
+#U"BACKTICK" : U"YEN";
+
+U"LGUI" : U"CAPSLOCK";
+U"RGUI" : 'Dvorak';
+#U"RGUI" : U"YEN";
+#U"RGUI" : U"Inter3";
+#U"RGUI" : U"Kanji3";
+
+################################################################################
+## Right hand side, keys listed left to right ##
+#
+
+U"FUNCTION6" : U"LAT7";
+U"6" : U"6";
+U"7" : U"7";
+U"8" : U"8";
+U"9" : U"9";
+U"0" : U"0";
+U"MINUS" : U"BACKSLASH";
+
+U"LBRACE" : U"NEXT LAYER";
+U"Y" : U"F";
+U"U" : U"G";
+U"I" : U"C";
+U"O" : U"R";
+U"P" : U"L";
+U"RBRACE" : U"SLASH";
+
+U"H" : U"D";
+U"J" : U"H";
+U"K" : U"T";
+U"L" : U"N";
+U"SEMICOLON" : U"S";
+U"QUOTE" : U"MINUS";
+
+U"RALT" : U"RALT";
+U"RCTRL" : U"RGUI";
+
+U"FUNCTION7" : U"FUN3";
+U"N" : U"B";
+U"M" : U"M";
+U"COMMA" : U"W";
+U"PERIOD" : U"V";
+U"SLASH" : U"Z";
+U"RSHIFT" : U"RSHIFT";
+
+U"PAGEUP" : U"PAGEUP";
+U"PAGEDOWN" : U"PAGEDOWN";
+U"ENTER" : U"ENTER";
+U"SPACE" : U"SPACE";
+
+U"LEFT" : U"UP";
+U"DOWN" : U"DOWN";
+U"UP" : U"LBRACE";
+U"RIGHT" : U"RBRACE";
+#U"RGUI" : U"CAPSLOCK";
+
+## complex
+
+#U"LSHIFT", U"LSHIFT" : '(';
+#U"LSHIFT", U"RSHIFT" : '(';
+
+#U"RSHIFT", U"RSHIFT" : ')';
+#U"RSHIFT", U"LSHIFT" : ')';
+#U"RSHIFT" + U"LSHIFT" : '()';

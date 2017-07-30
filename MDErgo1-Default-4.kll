@@ -1,0 +1,35 @@
+Name = "MDErgo1";
+Layout = "Default";
+Base = "Blank";
+Version = "0.1";
+Author = "jceaser (Thomas Cherry) 2017";
+KLL = "0.3c";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+
+U["1"-"0"] : None;
+U["A"-"Z"] : None;
+U"LBRACE" : U"NEXT LAYER";
+U"FUNCTION1" : U"PREV LAYER";
+
+# navigation/game layer
+
+U"D" : U"D";
+U"S" : U"S";
+U"A" : U"A";
+U"W" : U"W";
+
+U"C" : U"UP";
+U"FUNCTION5" : U"RIGHT";
+U"FUNCTION4" : U"DOWN";
+U"FUNCTION3" : U"LEFT";
+
+U"H" : U"H";
+U"J" : U"J";
+U"K" : U"K";
+U"L" : U"L";
+
+U"COMMA" : U"UP";
+U"LEFT" : U"LEFT";
+U"DOWN" : U"DOWN";
+U"UP" : U"RIGHT";

@@ -1,0 +1,20 @@
+Name = "MDErgo1";
+Layout = "Default";
+Base = "Blank";
+Version = "0.1";
+Author = "jceaser (Thomas Cherry) 2017";
+KLL = "0.3c";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+
+U["1"-"0"] : None;
+U["A"-"Z"] : None;
+U"FUNCTION1" : U"PREV LAYER";
+U"LBRACE" : U"NEXT LAYER";
+
+# Blank layer - prevent acidental typing
+
+U"SEMICOLON" : None;
+U"COMMA" : None;
+U"PERIOD" : None;
+U"SLASH" : None;

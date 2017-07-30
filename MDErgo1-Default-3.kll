@@ -1,0 +1,65 @@
+Name = "MDErgo1";
+Layout = "Default";
+Base = "Blank";
+Version = "0.1";
+Author = "jceaser (Thomas Cherry) 2017";
+KLL = "0.3c";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+
+U["1"-"0"] : None;
+U["A"-"Z"] : None;
+U"LBRACE" : U"NEXT LAYER";
+U"FUNCTION1" : U"PREV LAYER";
+
+# number pad / mouse pad
+
+U"LSHIFT" : '(';
+U"RSHIFT" : ')';
+
+U"6" : U"NUMLOCK";
+U"7" : U"P=";
+U"8" : U"P/";
+U"9" : U"P*";
+
+U"Y" : U"P7";
+U"U" : U"P8";
+U"I" : U"P9";
+U"O" : U"P-";
+
+U"H" : U"P4";
+U"J" : U"P5";
+U"K" : U"P6";
+U"L" : U"P+";
+
+U"N" : U"P1";
+U"M" : U"P2";
+U"COMMA" : U"P3";
+U"PERIOD" : U"PENTER";
+
+U"SPACE" : U"P0",U"P0";
+U"LEFT" : U"P0";
+U"DOWN" : U"P.";
+U"UP" : U"PENTER";
+U"RIGHT" : U"P,";
+
+U"1" : mouseOut( 1, 0, 0 );
+U"2" : mouseOut( 2, 0, 0 );
+U"3" : mouseOut( 3, 0, 0 );
+U"4" : mouseOut( 4, 0, 0 );
+U"4" : mouseOut( 5, 0, 0 );
+
+U"Z" : mouseOut( 0, -8,  0 );
+U"X" : mouseOut( 0,  0,  8 );
+U"C" : mouseOut( 0,  0, -8 );
+U"V" : mouseOut( 0,  8,  0 );
+
+U"A" : mouseOut( 0, -16,  0 );
+U"S" : mouseOut( 0,  0,  16 );
+U"D" : mouseOut( 0,  0, -16 );
+U"F" : mouseOut( 0,  16,  0 );
+
+U"Z" : mouseOut( 0, -32,   0 );
+U"X" : mouseOut( 0,   0,  32 );
+U"C" : mouseOut( 0,   0, -32 );
+U"V" : mouseOut( 0,  32,   0 );

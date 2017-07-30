@@ -1,0 +1,76 @@
+Name = "MDErgo1";
+Layout = "Default";
+Base = "Blank";
+Version = "0.1";
+Author = "jceaser (Thomas Cherry) 2017";
+KLL = "0.3c";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+
+U["1"-"0"] : None;
+U["A"-"Z"] : None;
+U"LBRACE" : U"NEXT LAYER";
+U"FUNCTION1" : U"PREV LAYER";
+
+# Other keys
+
+U"5" : U"F5";
+U"4" : U"F4";
+U"3" : U"F3";
+U"2" : U"F2";
+U"1" : U"F1";
+
+U"T" : U"F15";
+U"R" : U"F14";
+U"E" : U"F13";
+U"W" : U"F12";
+U"Q" : U"F11";
+
+U"G" : U"無変換";
+U"F" : U"変換";
+U"D" : U"¥";
+U"S" : U"カナ";
+U"A" : U"INTER1";
+
+U"B" : U"半角/全角";
+U"V" : U"ひらがな";
+U"C" : U"カタカナ";
+U"X" : U"英数/한자";
+U"Z" : U"한/영";
+U"LSHIFT" : '(';
+
+U"HOME" : CONS"PLAY";
+U"END" : CONS"STOP";
+
+U"DELETE" : CONS"EJECT";
+U"BACKSPACE" : CONS"MUTE";
+U"FUNCTION5" : CONS"FASTFORWARD";
+U"FUNCTION4" : CONS"REWIND";
+U"FUNCTION3" : U"ISO/";
+
+U"6" : U"F6";
+U"7" : U"F7";
+U"8" : U"F8";
+U"9" : U"F9";
+U"0" : U"F10";
+
+U"Y" : U"F16";
+
+U"H" : U"INTER6";
+U"J" : U"INTER7";
+U"K" : U"INTER8";
+U"L" : U"INTER9";
+
+U"N" : U"LANG6";
+U"M" : U"INTER7";
+U"COMMA" : U"LANG8";
+U"PERIOD" : U"LANG9";
+U"RSHIFT" : ')';
+
+U"PAGEUP" : CONS"SCANNEXTTRACK";
+U"PAGEDOWN" : CONS"SCANPREVIOUSTRACK";
+U"ENTER" : CONS"PAUSEPLAY";
+U"SPACE" : CONS"PAUSE";
+U"LEFT" : CONS"VOLUMEUP";
+U"DOWN" : CONS"VOLUMEDOWN";
+U"UP" : U"HASH";
